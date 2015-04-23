@@ -1,0 +1,17 @@
+#Aram Rodrigo Curiel Graxiola
+#A01229982
+#Quiz 10 - Question 1
+
+def findThrees(n):
+    x = 0
+    for element in n:
+        if(element % 3 == 0):
+            x = x + element
+    return x
+
+            
+n = [0,4,2,6,9,8,3,12]
+print()
+print(n)
+print()
+print (findThrees(n))
